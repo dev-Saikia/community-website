@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title:
+    text: CODE RANGERS
+    button:
     buttonlink: "#services"
 
   services:
@@ -21,21 +21,23 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
+      - title: "Web Development"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
+        icon: fas fa-browser #find more at https://fontawesome.com/icons
+      - title: "App Development"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        icon: fas fa-mobile-button
+      - title: "Game Development"
         desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+        icon: fab fa-regular fa-gamepad-modern
 
-  portfolio:
-    title: "Portfolio"
+  gallery:
+    title: "Gallery"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
+    section: gallery
     closebutton: "Close Project"
+    -title:
+      image:
 
   timeline:
     title: "Timeline"
@@ -44,13 +46,13 @@ en: &DEFAULT_EN
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
+      - title: "Our Humble Beginning"
+        year: "2022"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
+      - title: "Workshop 1"
+        year: "December 2022"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
         image: assets/img/timeline/2.jpg
         alt:
@@ -98,8 +100,8 @@ en: &DEFAULT_EN
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Shivam Dubey"
+        role: "President"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -108,8 +110,8 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
+      - name: "Yuvraj Das"
+        role: "Vice President"
         image: assets/img/team/2.jpg
         social:
           - url: https://twitter.com
@@ -118,8 +120,18 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
+      - name: "Imaduddin Gani"
+        role: "General Secretary"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Ravi Kumar"
+        role: "Treasurer"
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
@@ -131,7 +143,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Fill the boxes below or call 000000000000"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
